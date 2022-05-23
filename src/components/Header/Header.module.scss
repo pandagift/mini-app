@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu {
+        list-style-type: none;
+        padding-right: 20px;
+        border-right: 1px solid #e1e1e1;
+
+        >li {
+            display: inline-block;
+
+            >a {
+                display: block;
+                font-size: 15px;
+                color: #222;
+                padding: 0 12px;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .buttons {
+        display: flex;
+        align-items: center;
+
+        padding-left: 20px;
+        background-color: transparent;
+
+        >button {
+            cursor: pointer;
+            border: none;
+            outline: none;
+            background-color: transparent;
+        }
+
+        .login {
+            font-size: 15px;
+            color: #222;
+            padding: 0 6px;
+        }
+
+        .signup {
+            margin-left: 15px;
+            padding: 10px 8px;
+            border: 1px solid #1e1e1e
+        }
+
+    }
+
+}
